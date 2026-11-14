@@ -1,0 +1,984 @@
+
+/* General Website Design */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7ede2;
+    color: #5c4033;
+}
+
+/* Header */
+
+header {
+    background-color: #E6CCB2;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: #9C6644;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #FFF8F0;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E6CCB2;
+}
+
+/* Home Section */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F7F9FF;
+    color: #1E2A5E;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #173B8F;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    margin: 0;
+}
+
+header p {
+    margin: 8px 0 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #123BDB;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #FFDAA8;
+}
+
+/* Headings */
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #173B8F;
+}
+
+/* Homepage */
+.home {
+    max-width: 1100px;
+    min-height: 450px;
+    margin: 30px auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+    background: linear-gradient(135deg, #FFFFFF, #E5EDFF);
+    border-radius: 20px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.home-text h2 {
+    font-size: 42px;
+}
+
+.home-text p {
+    line-height: 1.8;
+}
+
+.home img {
+    width: 260px;
+    height: 340px;
+    object-fit: cover;
+    object-position: top;
+    border: 8px solid white;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px #AABCE0;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #123BDB;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.button:hover {
+    background-color: #173B8F;
+}
+
+/* About, Hometown and Hobbies */
+.about, .hometown, .hobbies {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.about img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border: 7px solid rgb(91, 66, 199);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px #AABCE0;
+}
+
+.place, .hobby {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    min-height: 310px;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #D6E4FF;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px #D6E4FF;
+}
+
+.place img, .hobby img {
+    width: 90%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.place p, .hobby p, .about p {
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #173B8F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Mobile screen */
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .home-text h2 {
+        font-size: 30px;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F7F9FF;
+    color: #1E2A5E;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #173B8F;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    margin: 0;
+}
+
+header p {
+    margin: 8px 0 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #123BDB;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #FFDAA8;
+}
+
+/* Headings */
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #173B8F;
+}
+
+/* Homepage */
+.home {
+    max-width: 1100px;
+    min-height: 450px;
+    margin: 30px auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+    background: linear-gradient(135deg, #FFFFFF, #E5EDFF);
+    border-radius: 20px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.home-text h2 {
+    font-size: 42px;
+}
+
+.home-text p {
+    line-height: 1.8;
+}
+
+.home img {
+    width: 260px;
+    height: 340px;
+    object-fit: cover;
+    object-position: top;
+    border: 8px solid white;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px #AABCE0;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #123BDB;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.button:hover {
+    background-color: #173B8F;
+}
+
+/* About, Hometown and Hobbies */
+.about, .hometown, .hobbies {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.about img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border: 7px solid white;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px #AABCE0;
+}
+
+.place, .hobby {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    min-height: 310px;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #D6E4FF;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px #D6E4FF;
+}
+
+.place img, .hobby img {
+    width: 90%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.place p, .hobby p, .about p {
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #173B8F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Mobile screen */
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .home-text h2 {
+        font-size: 30px;
+    }
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+    background-color: #9C6644;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #7F5539;
+}
+
+/* Footer */
+
+footer {
+    background-color: #9C6644;
+    text-align: center;
+    padding: 15px;
+}
+
+/* About Me Page */
+
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about h2 {
+    color: #bd7189;
+    font-size: 30px;
+}
+
+.about h3 {
+    color: #bd7189;
+    margin-top: 30px;
+}
+
+.about p {
+    line-height: 1.8;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f4c6d0;
+}
+
+/* Hometown Page */
+
+.hometown {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hometown h2 {
+    color: #bd7189;
+    margin-top: 35px;
+}
+
+.hometown p {
+    line-height: 1.8;
+}
+
+.place {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #e8cbd3;
+    vertical-align: top;
+}
+
+.place img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.place h3 {
+    color: #bd7189;
+}
+
+/* Hobbies Page */
+
+.hobbies {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hobbies h2 {
+    color: #bd7189;
+    margin-top: 35px;
+}
+
+.hobbies p {
+    line-height: 1.8;
+}
+
+.hobbies {
+    max-width: 1200px; /* besarkan ruang keseluruhan */
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hobbies h2 {
+    color: #bd7189;
+    margin-top: 35px;
+}
+
+.hobbies p {
+    line-height: 1.8;
+}
+
+.hobby {
+    display: inline-block;
+    width: 350px; /* besarkan setiap card */
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #e8cbd3;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+.home img {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
+    border: 8px solid white;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px #AABCE0;
+}
+
+.hobby h3 {
+    color: #FFF8F0;
+}
+/* Painting picture */
+.hobby:nth-of-type(1) img {
+    object-position:top center;
+}
+
+/* Sketching picture */
+.hobby:nth-of-type(2) img {
+    object-position: top bottom;
+}
+
+/* Archery picture */
+.hobby:nth-of-type(3) img {
+    object-position: center;
+}
+
+/* ===== Aesthetic Decorations ===== */
+
+body {
+    background:
+        radial-gradient(circle at 10% 20%, #E5EDFF 0, transparent 25%),
+        #F7F9FF;
+}
+
+/* Header decoration */
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: "✧";
+    position: absolute;
+    left: 12%;
+    top: 25px;
+    font-size: 45px;
+    color: #D6E4FF;
+}
+
+header::after {
+    content: "✦";
+    position: absolute;
+    right: 12%;
+    top: 35px;
+    font-size: 35px;
+    color: #FFDAA8;
+}
+
+/* Homepage decoration */
+.home {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 5% 90%, #D6E4FF 0, transparent 25%),
+        radial-gradient(circle at 95% 10%, #E5EDFF 0, transparent 25%),
+        linear-gradient(135deg, #FFFFFF, #EAF0FF);
+}
+
+/* Decorative stars */
+.home::before {
+    content: "✧";
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    font-size: 55px;
+    color: #9BB8F0;
+}
+
+.home::after {
+    content: "✦";
+    position: absolute;
+    bottom: 35px;
+    right: 40%;
+    font-size: 35px;
+    color: #D9AD78;
+}
+
+/* Heading underline */
+.home-text h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.home-text h2::after {
+    content: "";
+    display: block;
+    width: 75%;
+    height: 5px;
+    margin-top: 12px;
+    background: linear-gradient(to right, #9BB8F0, #E6CCB2);
+    border-radius: 20px;
+}
+
+/* Profile image decoration */
+.home img {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.home img:hover {
+    transform: translateY(-5px);
+}
+
+/* Button colour */
+.button {
+    background-color: #123BDB;
+    box-shadow: 0 4px 12px #B7C9F0;
+}
+
+.button:hover {
+    background-color: #173B8F;
+}
+
+/* Footer colour */
+footer {
+    background-color: #173B8F;
+    color: white;
+}
+
+/* =================================
+   DECORATIONS FOR ALL PAGES
+================================= */
+
+/* General page background */
+.about, .hometown, .hobbies {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 0% 0%, #E5EDFF, transparent 25%),
+        radial-gradient(circle at 100% 100%, #E5EDFF, transparent 25%),
+        #F7F9FF;
+    border-radius: 20px;
+}
+
+/* Decorative sparkle on page headings */
+.about h2, .hometown h2, .hobbies h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.about h2::after,
+.hometown h2::after,
+.hobbies h2::after {
+    content: "";
+    display: block;
+    width: 65%;
+    height: 4px;
+    margin: 10px auto;
+    border-radius: 20px;
+    background: linear-gradient(to right, #9BB8F0, #E6CCB2);
+}
+
+/* Decorative stars */
+.about::before,
+.hometown::before,
+.hobbies::before {
+    content: "✧";
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 40px;
+    color: #9BB8F0;
+    pointer-events: none;
+}
+
+.about::after,
+.hometown::after,
+.hobbies::after {
+    content: "✦";
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: #D9AD78;
+    pointer-events: none;
+}
+
+/* Beautiful cards */
+.place, .hobby {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.place:hover, .hobby:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px #AABCE0;
+}
+
+/* Image effect */
+.place img, .hobby img {
+    transition: transform 0.3s ease;
+}
+
+.place img:hover, .hobby img:hover {
+    transform: scale(1.04);
+}
+
+/* About profile effect */
+.about img {
+    transition: transform 0.3s ease;
+}
+
+.about img:hover {
+    transform: scale(1.03);
+}
+
+/* Paragraph decoration */
+.about p, .hometown p, .hobbies p {
+    line-height: 1.9;
+}
+
+/* Section titles */
+.place h3, .hobby h3 {
+    color: #173B8F;
+}
+
+/* Consistent card colours */
+.place, .hobby {
+    background-color: #FFFFFF;
+    border: 1px solid #D6E4FF;
+    border-radius: 18px;
+}
+
+/* ===== FIX PAGE LAYOUT ===== */
+
+/* Fix all section headings */
+.about h2,
+.hometown h2,
+.hobbies h2 {
+    display: block;
+    width: fit-content;
+    margin: 35px auto 25px;
+    color: #173B8F;
+    text-align: center;
+}
+
+/* Fix About Me profile */
+.about img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Center About Me content */
+.about {
+    text-align: center;
+}
+
+/* Fix Hometown and Hobbies cards */
+.hometown,
+.hobbies {
+    text-align: center;
+}
+
+/* Keep cards aligned neatly */
+.place,
+.hobby {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+}
+
+/* Fix all section titles */
+.place h3,
+.hobby h3 {
+    color: #173B8F;
+}
+
+.place img, .hobby img {
+    display: block;
+    margin: 0 auto 15px;
+    width: 90%;
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+
+    /* Image frame */
+    background-color: #F7F9FF;
+    padding: 8px;
+    border: 3px solid #D6E4FF;
+    border-radius: 15px;
+
+    /* Soft shadow */
+    box-shadow: 0 4px 10px #C5D4F0;
+}
+.place img:hover,
+.hobby img:hover {
+    border-color: #9BB8F0;
+    box-shadow: 0 6px 15px #AABCE0;
+    transform: scale(1.03);
+    transition: 0.3s ease;
+}
+
+/* =====================================
+   BLUE WATERCOLOR SCRAPBOOK THEME
+===================================== */
+
+body {
+    background-color: #F8F8F5;
+    background-image:
+        radial-gradient(ellipse at 5% 10%, #DCE9FC 0%, transparent 28%),
+        radial-gradient(ellipse at 95% 90%, #DCE9FC 0%, transparent 30%);
+    color: #173B70;
+}
+
+/* HEADER */
+header {
+    background:
+        linear-gradient(120deg, #DCE9FC, #F8F8F5, #DCE9FC);
+    color: #173B70;
+    border-bottom: 2px solid #B7CEF2;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+/* NAVIGATION */
+nav {
+    background: rgba(255,255,255,0.85);
+    border: 2px solid #B7CEF2;
+    border-radius: 35px;
+    max-width: 850px;
+    margin: 15px auto;
+    padding: 14px;
+    box-shadow: 0 4px 12px rgba(90,130,190,0.12);
+}
+
+nav a {
+    color: #173B70;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #4C7FC5;
+    background: #DCE9FC;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+/* WATERCOLOR CONTENT PANELS */
+.home, .about, .hometown, .hobbies {
+    background:
+        radial-gradient(ellipse at 10% 10%,
+            rgba(173,201,244,0.25), transparent 35%),
+        radial-gradient(ellipse at 90% 90%,
+            rgba(173,201,244,0.28), transparent 35%),
+        linear-gradient(135deg, #FFFFFF, #F1F5FF);
+    border: 2px solid #D2E1F8;
+    border-radius: 28px;
+    box-shadow: 0 8px 25px rgba(95,130,185,0.12);
+}
+
+/* PAINT BRUSH EFFECT ON HEADINGS */
+.home h2, .about h2,
+.hometown h2, .hobbies h2 {
+    color: #214D8C;
+    text-shadow: 1px 2px 3px #DCE9FC;
+}
+
+.home h2::after,
+.about h2::after,
+.hometown h2::after,
+.hobbies h2::after {
+    background: linear-gradient(
+        90deg, #A9C6F5, #DCE9FC, #91B5E8
+    );
+    border-radius: 50%;
+}
+
+/* IMAGE FRAMES */
+.home img, .about img,
+.place img, .hobby img {
+    border: 7px solid white;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(85,125,190,0.22);
+}
+
+/* HOMETOWN AND HOBBY CARDS */
+.place, .hobby {
+    background: rgba(255,255,255,0.9);
+    border: 2px solid #D2E1F8;
+    border-radius: 22px;
+    box-shadow: 0 5px 15px rgba(100,140,195,0.15);
+    transition: 0.3s ease;
+}
+
+.place:hover, .hobby:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 22px rgba(100,140,195,0.25);
+}
+
+/* BUTTONS */
+.button {
+    background: linear-gradient(135deg, #6F9DDC, #28539B);
+    color: white;
+    border: 2px solid #DCE9FC;
+    box-shadow: 0 5px 12px rgba(65,105,165,0.2);
+}
+
+.button:hover {
+    background: #173B70;
+    transform: translateY(-3px);
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(120deg, #DCE9FC, #B7CEF2, #DCE9FC);
+    color: #173B70;
+    border-top: 2px solid #B7CEF2;
+}
+
+/* MOBILE */
+@media (max-width: 700px) {
+    nav {
+        margin: 10px;
+    }
+
+    .home, .about, .hometown, .hobbies {
+        margin: 15px;
+        padding: 20px;
+    }
+}
